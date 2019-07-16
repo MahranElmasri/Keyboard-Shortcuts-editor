@@ -1,1 +1,65 @@
 
+[
+  // Save All
+  {
+    "key": "shift+cmd+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  // Switch between editor groups
+  {
+    "key": "ctrl+cmd+tab",
+    "command": "workbench.action.navigateEditorGroups",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+cmd+up",
+    "command": "editor.fold",
+    "when": "editorTextFocus"
+  },
+  // Unfold the braces
+  {
+    "key": "ctrl+cmd+down",
+    "command": "editor.unfold",
+    "when": "editorTextFocus"
+  },
+  // Toggle Command
+  {
+    "key": "cmd+7",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+g cmd+b",
+    "command": "git.push"
+  },
+  {
+    "key": "cmd+g cmd+v",
+    "command": "git.pull"
+  },
+  {
+    "key": "cmd+g cmd+c",
+    "command": "git.commit"
+  },
+  {
+    "key": "ctrl+[IntlBackslash]",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+[Equal]",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+g cmd+g",
+    "command": "git.checkout"
+  },
+  {
+    "key": "ctrl+cmd+x",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  }
+]
